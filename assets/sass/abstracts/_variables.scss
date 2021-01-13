@@ -1,0 +1,27 @@
+//Colores
+$black                  :#000000;
+$white                  :#FFF;
+$colorgray              :#808080;
+$color_miscelaneo_tag   :#4682b4;
+$color_footer_button    :#ff7f50;
+$color_footer_background:#f2f4f5;
+
+
+//Fuentes
+$monospace:monospace;
+
+
+
+
+//breakpoint
+$breakpoints: (
+  
+    'sm' : (min-width: 576px),
+    'md' : (min-width: 768px),
+    'lg' : (min-width: 992px),
+    'xl' : (min-width: 1200px),
+    'm-sm' : (max-width: 576px),
+    'm-md' : (max-width: 768px),
+    'm-lg' : (max-width: 992px),
+    'm-xl' : (max-width: 1200px)
+    ) !default;

@@ -1,0 +1,33 @@
+.header {
+    padding      : .5rem 1rem;
+    border-bottom: 1px solid gray;
+
+    & input {
+        border-radius: 30px;
+        margin-left  : 18px;
+    }
+
+    &_menu_brand {
+        float: left;
+
+        & p {
+            font-weight: bold;
+            font-size  : 17px;
+        }
+    }
+
+    &_menu_wrapper {
+        text-align: right;
+
+        & li {
+            display: inline;
+        }
+        &-nosotros {
+            @include respond-to('m-sm') { 
+                display:none !important;
+              }
+        }
+        
+
+    }
+}

@@ -1,0 +1,47 @@
+.noticias {
+
+    &_box_img  {
+        display: flex;
+    }
+
+    &_box {
+        padding: 15px;
+
+    }
+}
+
+
+
+
+.miscelaneo {
+    padding-right: 15px;
+    padding-left: 15px;
+    &_destacados_box_img img {
+        width: 100%;
+    }
+
+    &_destacados_box_title h2 {
+        font-weight: 300;
+        font-size  : 16px;
+    }
+
+    &_nosotros_bajada {
+        border-bottom: 1px solid $colorgray;
+    }
+
+    &_tag {
+        border-bottom: 1px solid $colorgray;
+
+        &_bajada li {
+            color           : $white;
+            display         : inline;
+            background-color: $color_miscelaneo_tag;
+
+            cursor : pointer;
+            padding: 2px;
+        }
+    }
+
+
+
+}
